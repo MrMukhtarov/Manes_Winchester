@@ -1,0 +1,72 @@
+@media only screen and (max-width: 992px) {
+  .main-section {
+    .card {
+      .card-text {
+        p {
+          font-size: 20px;
+        }
+      }
+    }
+  }
+
+  .mail {
+    .mail-center {
+      border: none !important;
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .main-section {
+    .card {
+      flex-direction: column !important;
+      .card-text {
+        p {
+          font-size: 15px;
+          display: flex !important;
+          align-items: center !important;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .main-section {
+    .card {
+      .card-text {
+        p {
+          font-size: 12px;
+        }
+      }
+    }
+  }
+
+  .testemonials {
+    .testemonials-left {
+      .testemonials-left-h1 {
+        font-size: 23px !important;
+      }
+    }
+    .testemonials-right {
+      border-left: none !important;
+    }
+  }
+
+  .place {
+    .container {
+      .place-all {
+        .place-h2 {
+          font-size: 12px !important;
+          text-align: center;
+        }
+      }
+    }
+  }
+
+  footer {
+    .copy {
+      font-size: 8px !important;
+    }
+  }
+}

@@ -1,0 +1,258 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #57614d;
+  border-bottom: 1px solid #fff;
+}
+header .header-all .header-right ul li {
+  list-style: none;
+}
+header .header-all .header-right ul li .selected {
+  color: white;
+}
+header .header-all .header-right ul li a {
+  text-decoration: none;
+  font-size: 13px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #bbc6ab;
+  font-weight: bold;
+  font-family: "Times";
+  text-align: right;
+  filter: drop-shadow(0.5px 0.866px 0px rgba(0, 0, 0, 0.3));
+  transition: all 0.3s;
+}
+header .header-all .header-right ul li a:hover {
+  color: white;
+}
+
+.main-section {
+  background-color: #d9d9d9;
+}
+.main-section .card {
+  background-color: #e9e9e9;
+}
+.main-section .card .card-text p {
+  width: 307px;
+  height: 185px;
+  font-size: 30px;
+  line-height: 48px;
+  color: #4e5944;
+  font-family: "Times New Roman";
+  text-align: center;
+}
+
+.testemonials {
+  background-color: #eeeeee;
+  border-bottom: 1px solid #fff;
+}
+.testemonials .all-testemonials .testemonials-left {
+  padding: 2rem;
+}
+.testemonials .all-testemonials .testemonials-left .testemonials-left-h1 {
+  font-size: 32px;
+  line-height: 24px;
+  color: #57614e;
+  font-family: "Times New Roman";
+  margin-bottom: 20px;
+}
+.testemonials .all-testemonials .testemonials-left .testemonials-left-p {
+  font-size: 16px;
+  line-height: 24px;
+  color: #626262;
+  font-family: "Times New Roman";
+}
+.testemonials .all-testemonials .testemonials-left .testemonials-left-p a {
+  color: #626262;
+}
+.testemonials .all-testemonials .testemonials-right {
+  border-left: 1px solid rgba(0, 0, 0, 0.185);
+  padding: 2rem;
+}
+.testemonials .all-testemonials .testemonials-right .testemonials-right-h1 {
+  color: #626262;
+  font-size: 20px;
+  line-height: 24px;
+  color: #57614e;
+  font-family: "Times New Roman";
+  margin-bottom: 20px;
+}
+.testemonials .all-testemonials .testemonials-right .testemonials-right-p {
+  font-size: 16px;
+  line-height: 24px;
+  color: #626262;
+  font-family: "Times New Roman";
+}
+.testemonials .all-testemonials .testemonials-right span {
+  color: #626262;
+  display: block;
+  font: 14px Arial, Helvetica, sans-serif;
+  text-align: right;
+}
+
+.place {
+  background-color: #e2e2e2;
+  border-bottom: 1px solid #fff;
+}
+.place .place-h2 {
+  color: #728063;
+  font: 19px/24px "Times New Roman", Times, serif;
+  letter-spacing: 2px;
+  margin: 20px 0;
+}
+.place .place-all .place-cards .card {
+  border: none;
+}
+.place .place-all .place-cards .card .card-img-top {
+  border: 5px solid rgba(231, 231, 231, 0) !important;
+}
+.place .place-all .place-cards .card .card-body {
+  background-color: #e2e2e2;
+}
+.place .place-all .place-cards .card .card-body .card-title {
+  color: #626262;
+  font-weight: bold;
+  font-size: 14px;
+}
+.place .place-all .place-cards .card .card-body .card-text {
+  color: #626262;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.place .place-all .place-cards .card .card-body .btn {
+  color: #fff;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 28px;
+  background-color: #646464;
+  border: none;
+  padding: 3px 35px;
+  border-radius: 0;
+  transition: all 0.3s;
+}
+.place .place-all .place-cards .card .card-body .btn:hover {
+  background-color: #373737;
+}
+
+.mail {
+  background-color: #d9d9d9;
+  padding: 4rem 0;
+}
+.mail .mail-all .mail-left .mail-left-h4 {
+  font-size: 13px;
+  text-transform: uppercase;
+  color: #626262;
+  font-weight: bold;
+  font-family: "Arial";
+}
+.mail .mail-all .mail-left .mail-left-p {
+  font-size: 14px;
+  color: #626262;
+  font-family: "Times New Roman";
+}
+.mail .mail-all .mail-center {
+  border-left: 1px solid rgba(0, 0, 0, 0.185);
+  border-right: 1px solid rgba(0, 0, 0, 0.185);
+}
+.mail .mail-all .mail-center .mail-center-h4 {
+  font-size: 13px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #626262;
+  font-weight: bold;
+  font-family: "Arial";
+}
+.mail .mail-all .mail-center .mail-center-add {
+  font-size: 14px;
+  color: #626262;
+  font-family: "Times New Roman";
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.mail .mail-all .mail-right .mail-right-h4 {
+  font-size: 13px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #626262;
+  font-weight: bold;
+  font-family: "Arial";
+}
+.mail .mail-all .mail-right .mail-right-p {
+  font-size: 14px;
+  color: #626262;
+  font-family: "Times New Roman";
+}
+.mail .mail-all .mail-right .btn {
+  color: #fff;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 28px;
+  background-color: #646464;
+  border: none;
+  padding: 3px 35px;
+  border-radius: 0;
+  transition: all 0.3s;
+}
+.mail .mail-all .mail-right .btn:hover {
+  background-color: #373737;
+}
+
+footer {
+  background-color: #4f5843;
+}
+footer i {
+  transition: all 0.4s !important;
+}
+footer i:hover {
+  color: black !important;
+}
+footer .copy {
+  color: #b5c1aa;
+  font: 11px/30px Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding-right: 10px;
+  text-align: right;
+  text-transform: uppercase;
+}
+
+@media only screen and (max-width: 992px) {
+  .main-section .card .card-text p {
+    font-size: 20px;
+  }
+  .mail .mail-center {
+    border: none !important;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .main-section .card {
+    flex-direction: column !important;
+  }
+  .main-section .card .card-text p {
+    font-size: 15px;
+    display: flex !important;
+    align-items: center !important;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .main-section .card .card-text p {
+    font-size: 12px;
+  }
+  .testemonials .testemonials-left .testemonials-left-h1 {
+    font-size: 23px !important;
+  }
+  .testemonials .testemonials-right {
+    border-left: none !important;
+  }
+  .place .container .place-all .place-h2 {
+    font-size: 12px !important;
+    text-align: center;
+  }
+  footer .copy {
+    font-size: 8px !important;
+  }
+}/*# sourceMappingURL=style.css.map */
